@@ -5,11 +5,23 @@ node_modules/
 .venv/
 __pycache__/
 target/
-dist/
-build/
 *.log
 .claude/
 .cc-workbench/
 轨迹/
 录屏/
 视频/
+
+# Laravel
+backend/vendor/
+backend/database/database.sqlite
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+backend/bootstrap/cache/*.php
+backend/public/spa/
+backend/public/hot
+
+# 前端
+frontend/dist/
